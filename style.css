@@ -1,0 +1,100 @@
+body{ 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:#000000;
+    
+}
+
+/*div parent*/
+body>div{
+    width: 1135px;
+    background-color: #ccc;
+    margin: 0px auto;
+    
+}
+
+
+/* for head */
+
+/*for list convert from block to inline-block*/
+.listhead{
+    display: inline-block;
+}
+
+.left{
+    padding: 0% 0px 0% 80%;
+}
+
+
+
+#backhead{
+    background-image:url("images/bg1.jpg") ;
+    height: 115px;
+    background-repeat: no-repeat;
+    background-color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/*finsh head*/
+
+/*navigation par*/
+nav{background-color: #000;
+padding: 5px 0px;
+}
+a{padding: 0px 8px; text-transform:uppercase;}
+a:link{color: #ffffff; }
+a:visited{color: #fff;}
+a:hover{background-color: #3399fe;}
+nav>a{
+    text-decoration: none;
+}
+
+
+/*finsh navigation par*/
+
+/*pody*/
+.body{
+    margin: 0px auto;
+    padding: 8px 8px;
+}
+
+.floatleft{
+    float: left;
+    
+}
+.floatright{
+    float: right;
+   
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.h1inbody{text-transform:uppercase; padding-left: 10px; color:#09f ;}
+
+.border{border-bottom:1px solid #a4a4a4; }
+span{display: block;}
+
+body>div>div.body{border-bottom: 1px solid #a4a4a4;}
+
+body>div>div.body>div.floatleft{width: 50rem;}
+body>div>div.body>div.floatright{width:25%;}
+body>div>div.body>div.floatright>h2{color: orange; font-weight: 100; font-size: larger; margin-bottom: 0px;}
+body>div>div.body>div.floatright>h3{color:#09f; font-size: medium; font-weight: 100; margin: 0px 0px;}
+
+.img{
+    border: 5px double #f7f8f9;
+   
+ }
+
+/*footer*/
+ footer{
+    margin: 10px 10px;
+    text-align: center;
+   height: 50px;
+}
+
+
